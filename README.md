@@ -1,7 +1,8 @@
 # GULP-bundle
 Ready to use gulp-scss bundle
 
-## :hammer_and_wrench: Установка
+## :hammer_and_wrench: Setup
+
 * Install:
     * [Gulp](https://gulpjs.com/): ```npm i -g gulp```
 * Clone:
@@ -15,7 +16,7 @@ Ready to use gulp-scss bundle
     * ```npm run eslint``` - check js files
     * ```npm run stylelint``` - check scss files
 
-## :open_file_folder: Файловая структура
+## :open_file_folder: File structure
 
 ```
 gulp-bundle
@@ -27,6 +28,10 @@ gulp-bundle
 │   ├── sass
 │   ├── views
 │   └── index.html
+├── .editorconfig
+├── .eslintignore
+├── .eslintrc
+├── .stylelintrc
 ├── gulpfile.js
 ├── package.json
 ├── package-lock.json
