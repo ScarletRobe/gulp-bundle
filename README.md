@@ -12,7 +12,7 @@ Ready to use gulp-scss bundle
 * Start your project:
     * ```npm start``` (Development mode)
     * ```npm run build``` (Build)
-* Commands:
+## :book: Commands:
     * ```npm run eslint``` - check js files
     * ```npm run stylelint``` - check scss files
 
