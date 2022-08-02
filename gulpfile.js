@@ -101,6 +101,11 @@ const watcher = () => {
   gulp.watch('source/images/**/*').on('all', gulp.series(cleanImages, optimizeImages, browser.reload))
 }
 
+export const images = gulp.series(
+  cleanImages,
+  optimizeImages
+)
+
 export const build = gulp.series(
   gulp.parallel(
     clean,

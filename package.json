@@ -28,6 +28,7 @@
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "lint": "npm run editorconfig && npm run stylelint && npm run eslint",
     "eslint": "eslint source/js/",
+    "images": "gulp images",
     "build": "gulp build",
     "start": "gulp"
   },
