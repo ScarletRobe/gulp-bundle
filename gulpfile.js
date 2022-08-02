@@ -13,7 +13,7 @@ import imagemin from 'gulp-imagemin';
 
 // HTML
 
-const html = () => {
+export const html = () => {
   return gulp.src('source/**/*.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(rename({
@@ -59,7 +59,7 @@ export const optimizeImages = () => {
 // Del
 
 const clean = () => {
-  return deleteAsync(['./build/*', '!build/images']);
+  return deleteAsync(['build/**/*', '!build/images']);
 };
 
 const cleanImages = () => {
@@ -102,7 +102,7 @@ export const build = gulp.series(
     css,
     js
   )
-)
+);
 
 export default gulp.series(
   clean,

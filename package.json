@@ -10,8 +10,8 @@
     "del": "^7.0.0",
     "gulp": "4.0.2",
     "gulp-dart-sass": "^1.0.2",
-    "gulp-imagemin": "^8.0.0",
     "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
     "gulp-plumber": "1.2.1",
     "gulp-postcss": "9.0.1",
     "gulp-rename": "^2.0.0",
@@ -19,13 +19,16 @@
     "postcss": "8.3.11",
     "postcss-csso": "^6.0.0",
     "stylelint": "13.13.1",
-    "stylelint-config-htmlacademy": "0.1.11"
+    "stylelint-config-htmlacademy": "0.1.11",
+    "eslint": "^8.21.0",
+    "eslint-config-htmlacademy": "^6.0.0"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
-    "lint": "npm run editorconfig && npm run stylelint",
-    "build": "gulp styles scripts optimizeImages",
+    "lint": "npm run editorconfig && npm run stylelint && npm run eslint",
+    "eslint": "eslint source/js/",
+    "build": "gulp build",
     "start": "gulp"
   },
   "browserslist": [
