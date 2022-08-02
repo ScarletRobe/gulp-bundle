@@ -56,6 +56,16 @@ export const optimizeImages = () => {
 		.pipe(gulp.dest('build/images'))
 };
 
+// Copy
+
+const copy = () => {
+  gulp.src([
+    'source/fonts/*',
+    'source/*.ico'])
+  .pipe(gulp.dest('build'))
+  done();
+}
+
 // Del
 
 const clean = () => {
@@ -96,6 +106,7 @@ export const build = gulp.series(
     clean,
     cleanImages
   ),
+  copy,
   gulp.parallel(
     optimizeImages,
     html,
