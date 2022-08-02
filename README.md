@@ -26,7 +26,6 @@ gulp-bundle
 │   ├── images
 │   ├── js
 │   ├── sass
-│   ├── views
 │   └── index.html
 ├── .editorconfig
 ├── .eslintignore
