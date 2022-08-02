@@ -12,6 +12,12 @@ Ready to use gulp-scss bundle
 * Start your project:
     * ```npm start``` (Development mode)
 
+## :page_with_curl: Capabilities:
+<ul>
+  <li>Compile SCSS into CSS</li>
+  <li>Minify CSS, JS, HTML</li>
+  <li>Optimize images</li>
+ </ul>
 
 ## :book: Commands:
 ```npm run build``` - build project
