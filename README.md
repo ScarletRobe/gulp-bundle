@@ -6,7 +6,7 @@ Ready to use gulp-scss bundle
 * Install:
     * [Gulp](https://gulpjs.com/): ```npm i -g gulp```
 * Clone:
-    * ```git@github.com:ScarletRobe/gulp-bundle.git```
+    * ```git clone git@github.com:ScarletRobe/gulp-bundle.git```
 * Install all dependencies: 
     * ```npm i```
 * Start your project:
