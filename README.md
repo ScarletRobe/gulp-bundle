@@ -11,10 +11,22 @@ Ready to use gulp-scss bundle
     * ```npm i```
 * Start your project:
     * ```npm start``` (Development mode)
-    * ```npm run build``` (Build)
+
+## :page_with_curl: Capabilities:
+<ul>
+  <li>Compile SCSS into CSS</li>
+  <li>Minify CSS, JS, HTML</li>
+  <li>Optimize images</li>
+ </ul>
+
 ## :book: Commands:
-    * ```npm run eslint``` - check js files
-    * ```npm run stylelint``` - check scss files
+```npm run build``` - build project
+
+```npm run images``` - build images
+
+```npm run eslint``` - check js files
+
+```npm run stylelint``` - check scss files
 
 ## :open_file_folder: File structure
 
