@@ -59,11 +59,15 @@ export const optimizeImages = () => {
 // Copy
 
 const copy = () => {
-  gulp.src([
-    'source/fonts/*',
-    'source/*.ico'])
-  .pipe(gulp.dest('build'))
-  done();
+    return gulp.src([
+      'source/fonts/*'])
+    .pipe(gulp.dest('build/fonts'))
+  }
+
+  const copyIco = () => {
+    return gulp.src([
+      'source/*.ico'])
+    .pipe(gulp.dest('build/images'))
 }
 
 // Del
